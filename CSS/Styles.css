@@ -1,0 +1,322 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+h3 {
+    color: none;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: initial;
+    color: black;
+}
+
+#mostrar-pdf {
+    margin: 0px 0px 50px 0px;
+
+}
+
+a {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    padding: 20px 20px;
+}
+
+input {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+#textoenviar {
+    text-transform: initial;
+    width: 250px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-color: blue;
+}
+
+#textorecibido {
+    text-transform: initial;
+    width: 250px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-color: red;
+    margin: 0px 0px 20px 0px;
+}
+
+.file-select {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+/*
+#selectimagen {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    cursor: default;
+    text-transform: uppercase;
+    bottom: center;
+    margin-top: none;
+    margin-bottom: ;
+    margin-right: none;
+    margin-left: none;
+}
+*/
+label {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+#textsend {
+    text-transform: initial;
+}
+
+#textreceive {
+    text-transform: initial;
+}
+
+/*
+#selectimagen {
+    text-transform: initial;
+}
+*/
+button {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+#copiar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    cursor: copy;
+    text-transform: uppercase;
+}
+
+#pdfs {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    cursor: default;
+    text-transform: uppercase;
+    margin: 2px 2px 2px 710px;
+}
+
+
+#subirimagen {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    cursor: copy;
+    text-transform: uppercase;
+}
+
+form {
+    color: none;
+}
+
+#formularioenvio {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#formulariorecepcion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#imageform {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#videoform {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#videoPlayer {
+    margin: 50px 2px 2px 50px;
+}
+/*
+input[type=”file”] #imageinput {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+label[for="imageinput"] {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #106BA0;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+}
+*/ 
+/*
+.container-input {
+    text-align: center;
+    background: #000000;
+    border-radius: 6px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.file-select {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-select + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.file-select + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.iborrainputfile {
+	font-size:16px; 
+	font-weight:normal;
+	font-family: 'Lato';
+}
+
+/ style 1 
+
+.file-select + label {
+    color: #fff;
+    background-color: #000000;
+}
+
+.file-select:focus + label,
+.file-select.has-focus + label,
+.file-select + label:hover {
+    background-color: #000000;
+}
+*/
+.custom-input-file {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 auto 0;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    border-top-left-radius: 20px;
+   
+  }
+  
+  .custom-input-file .input-file {
+   border: 10000px solid transparent;
+   cursor: pointer;
+   font-size: 10000px;
+   margin: 0;
+   opacity: 0;
+   outline: 0 none;
+   padding: 0;
+   position: absolute;
+   right: -1000px;
+   top: -1000px;
+  }
+
+  .custom-input-file1 {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 auto 0;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    border-top-left-radius: 20px;
+  }
+  
+  .custom-input-file1 .input-file1 {
+   border: 10000px solid transparent;
+   cursor: pointer;
+   font-size: 10000px;
+   margin: 0;
+   opacity: 0;
+   outline: 0 none;
+   padding: 0;
+   position: absolute;
+   right: -1000px;
+   top: -1000px;
+  }
+
+#imagecontainer{
+    text-align: center;
+    padding: auto;
+}
